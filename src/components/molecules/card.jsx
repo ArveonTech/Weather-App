@@ -39,7 +39,7 @@ export default function Card({ data, error }) {
         <p>
           <span className="font-bold text-2xl">{data.name}</span>
         </p>
-        <img className="w-20" src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="icon" />
+        <img className="w-20" src={`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`} alt="icon" />
       </header>
       <p className="mt-2">
         Suhu : <span className="font-bold">{data.main.temp}°C</span>
